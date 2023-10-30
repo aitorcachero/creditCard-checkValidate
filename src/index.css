@@ -3,7 +3,8 @@
 :root {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 600;
+  font-weight: bold;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -40,9 +41,16 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 4em;
+  font-weight: bold;
   text-align: center;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(252, 255, 96) 0%,
+    rgb(223, 89, 0) 75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .input-container {

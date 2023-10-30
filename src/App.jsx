@@ -21,6 +21,7 @@ function App() {
           <input
             type="text"
             className="input-validate"
+            maxLength={16}
             onChange={handleOnChange}
           />
           {valid && <img className="isvalid" src={valid} />}
