@@ -1,0 +1,31 @@
+.form-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 400px;
+  margin-top: 3rem;
+  /* border: 1px solid; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+tr {
+  height: 40px;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.26);
+}
